@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DHACYNDO - Statistika & Galaksi</title>
+  <meta name="description" content="Belajar ukuran pemusatan data dengan tema galaksi bersama Dhacyndo!">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3219/3219958.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes rocket {
+      0% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(2deg); }
+      100% { transform: translateY(0) rotate(0deg); }
+    }
+    @keyframes spin-slow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .animate-float { animation: float 4s ease-in-out infinite; }
+    .animate-rocket { animation: rocket 6s ease-in-out infinite; }
+    .animate-spin-slow { animation: spin-slow 20s linear infinite; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-blue-950 via-black to-indigo-950 text-white font-sans">
+
+  <!-- HEADER -->
+  <header class="relative py-20 px-6 overflow-hidden bg-gradient-to-b from-blue-900 via-indigo-900 to-black shadow-inner">
+    <!-- Dekorasi Galaksi -->
+    <img src="https://cdn-icons-png.flaticon.com/512/3219/3219958.png" class="absolute w-20 top-8 left-6 opacity-80 animate-float" alt="Astronaut">
+    <img src="https://cdn-icons-png.flaticon.com/512/4181/4181165.png" class="absolute w-16 top-24 right-8 opacity-90 animate-rocket" alt="Rocket">
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616651.png" class="absolute w-6 top-12 left-1/2 opacity-60 animate-pulse" alt="Star">
+    <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" class="absolute w-24 bottom-10 right-10 opacity-60 animate-spin-slow" alt="Planet">
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616655.png" class="absolute w-5 bottom-20 left-20 opacity-40 animate-pulse" alt="Star">
+
+    <!-- Judul -->
+    <div class="relative z-10 max-w-3xl mx-auto text-center">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4 tracking-wide drop-shadow-lg">DHACYNDO</h1>
+      <p class="text-xl md:text-2xl text-blue-200 italic mb-6">Mari kita belajar tentang <span class="text-blue-400 font-semibold">Ukuran Pemusatan Data!</span></p>
+
+      <!-- Instagram -->
+      <p class="text-sm mb-3 text-blue-200">Temui kami di Instagram:</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://www.instagram.com/aldhaa12_?igsh=N3k1djB4a3d1d3kw" target="_blank" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-full backdrop-blur-sm transition">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class="w-5 h-5" alt="IG"> @aldhaa12_
+        </a>
+        <a href="https://www.instagram.com/dindcyy.oo?igsh=eWtieXoweHNpOGs3&utm_source=qr" target="_blank" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-full backdrop-blur-sm transition">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class="w-5 h-5" alt="IG"> @dindcyy.oo
+        </a>
+        <a href="https://www.instagram.com/cynnthians?igsh=dm5lbmprdHc5OWNi" target="_blank" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-full backdrop-blur-sm transition">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class="w-5 h-5" alt="IG"> @cynnthians
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MENU PILIHAN -->
+  <section class="py-10">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4 text-center">
+      <div class="bg-white text-black shadow-md rounded-xl p-6 hover:scale-105 transition">
+        <h2 class="text-xl font-semibold mb-2">📚 Materi</h2>
+        <p class="text-sm text-gray-600">Pelajari konsep-konsep dasar dengan mudah.</p>
+        <a href="https://online.flippingbook.com/view/883971603/" class="mt-4 inline-block text-blue-600 font-bold">Buka Materi</a>
+      </div>
+      <div class="bg-white text-black shadow-md rounded-xl p-6 hover:scale-105 transition">
+        <h2 class="text-xl font-semibold mb-2">🎥 Video Pembelajaran</h2>
+        <p class="text-sm text-gray-600">Tonton penjelasan lewat video interaktif.</p>
+        <a href="https://drive.google.com/file/d/1YJAl0X9G9x6I3__VRrREaHDVz-iRWVbF/view?usp=drivesdk" target="_blank" class="mt-4 inline-block text-blue-600 font-bold">Tonton Video</a>
+      </div>
+      <div class="bg-white text-black shadow-md rounded-xl p-6 hover:scale-105 transition">
+        <h2 class="text-xl font-semibold mb-2">🤖 AI Dhacyndo</h2>
+        <p class="text-sm text-gray-600">Tanya jawab langsung dengan AI Dhacyndo!</p>
+        <a href="https://www.chatbase.co/chatbot-iframe/_llt001cYYk6xN5hr6xKb" target="_blank" class="mt-4 inline-block text-blue-600 font-bold">Coba Sekarang</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATIHAN -->
+  <section class="bg-blue-50 py-10 text-black">
+    <div class="max-w-3xl mx-auto text-center px-4">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">🎯 Ayo kita berlatih!</h2>
+      <p class="text-gray-700 mb-6">Uji pemahamanmu dengan kuis seru dari Dhacyndo.</p>
+      <a href="#kuis" class="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition">
+        Mulai Kuis
+      </a>
+    </div>
+  </section>
+
+  <!-- BAGIAN KUIS -->
+  <section id="kuis" class="py-10 hidden">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-md">
+      <h2 class="text-2xl font-bold text-center mb-6 text-black">📝 Kuis: Ukuran Pemusatan Data</h2>
+      <form id="quizForm" class="space-y-6 text-black">
+        
+        <!-- Soal 1 -->
+        <div>
+          <p class="font-semibold">1. Hitung mean dari data berikut:<br>89, 89, 89, 89, 90, 90, 91, 91, 92, 93, 93, 94, 94, 96, 96, 98, 98, 100</p>
+          <label class="block mt-2"><input type="radio" name="q1" value="a"> 90</label>
+          <label class="block"><input type="radio" name="q1" value="b"> 92,89</label>
+          <label class="block"><input type="radio" name="q1" value="c"> 94</label>
+        </div>
+
+        <!-- Soal 2 -->
+        <div>
+          <p class="font-semibold mb-2">2. Nilai rata-rata dari data post test matematika berikut:</p>
+          <table class="table-auto mx-auto text-sm border border-gray-300 mb-3">
+            <thead class="bg-gray-100">
+              <tr><th class="px-4 py-2 border">Nilai</th><th class="px-4 py-2 border">Frekuensi</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="border px-4 py-1 text-center">21–25</td><td class="border px-4 py-1 text-center">2</td></tr>
+              <tr><td class="border px-4 py-1 text-center">26–30</td><td class="border px-4 py-1 text-center">8</td></tr>
+              <tr><td class="border px-4 py-1 text-center">31–35</td><td class="border px-4 py-1 text-center">9</td></tr>
+              <tr><td class="border px-4 py-1 text-center">36–40</td><td class="border px-4 py-1 text-center">6</td></tr>
+              <tr><td class="border px-4 py-1 text-center">41–45</td><td class="border px-4 py-1 text-center">3</td></tr>
+              <tr><td class="border px-4 py-1 text-center">46–50</td><td class="border px-4 py-1 text-center">2</td></tr>
+            </tbody>
+          </table>
+          <label class="block"><input type="radio" name="q2" value="a"> 30</label>
+          <label class="block"><input type="radio" name="q2" value="b"> 34</label>
+          <label class="block"><input type="radio" name="q2" value="c"> 38</label>
+        </div>
+
+        <!-- Soal 3 -->
+        <div>
+          <p class="font-semibold mb-2">3. Modus dari data tinggi badan siswa berikut:</p>
+          <table class="table-auto mx-auto text-sm border border-gray-300 mb-3">
+            <thead class="bg-gray-100">
+              <tr><th class="px-4 py-2 border">Tinggi Badan (cm)</th><th class="px-4 py-2 border">Frekuensi</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="border px-4 py-1 text-center">11–15</td><td class="border px-4 py-1 text-center">5</td></tr>
+              <tr><td class="border px-4 py-1 text-center">16–20</td><td class="border px-4 py-1 text-center">10</td></tr>
+              <tr><td class="border px-4 py-1 text-center">21–25</td><td class="border px-4 py-1 text-center">8</td></tr>
+              <tr><td class="border px-4 py-1 text-center">26–30</td><td class="border px-4 py-1 text-center">4</td></tr>
+              <tr><td class="border px-4 py-1 text-center">31–35</td><td class="border px-4 py-1 text-center">3</td></tr>
+            </tbody>
+          </table>
+          <label class="block"><input type="radio" name="q3" value="a"> 19,07</label>
+          <label class="block"><input type="radio" name="q3" value="b"> 21,50</label>
+          <label class="block"><input type="radio" name="q3" value="c"> 23,00</label>
+        </div>
+
+        <!-- Soal 4 -->
+        <div>
+          <p class="font-semibold">4. Modus dari data: 5, 8, 10, 15, 8, 12, 5, 8, 10</p>
+          <label class="block mt-2"><input type="radio" name="q4" value="a"> 5</label>
+          <label class="block"><input type="radio" name="q4" value="b"> 8</label>
+          <label class="block"><input type="radio" name="q4" value="c"> 10</label>
+        </div>
+
+        <!-- Soal 5 -->
+        <div>
+          <p class="font-semibold mb-2">5. Median dari data produksi padi berikut:</p>
+          <table class="table-auto mx-auto text-sm border border-gray-300 mb-3">
+            <thead class="bg-gray-100">
+              <tr><th class="px-4 py-2 border">Produksi Padi (kg)</th><th class="px-4 py-2 border">Frekuensi</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="border px-4 py-1 text-center">11–15</td><td class="border px-4 py-1 text-center">5</td></tr>
+              <tr><td class="border px-4 py-1 text-center">16–20</td><td class="border px-4 py-1 text-center">10</td></tr>
+              <tr><td class="border px-4 py-1 text-center">21–25</td><td class="border px-4 py-1 text-center">8</td></tr>
+              <tr><td class="border px-4 py-1 text-center">26–30</td><td class="border px-4 py-1 text-center">4</td></tr>
+              <tr><td class="border px-4 py-1 text-center">31–35</td><td class="border px-4 py-1 text-center">3</td></tr>
+            </tbody>
+          </table>
+          <label class="block"><input type="radio" name="q5" value="a"> 20,5</label>
+          <label class="block"><input type="radio" name="q5" value="b"> 22,5</label>
+          <label class="block"><input type="radio" name="q5" value="c"> 25,5</label>
+        </div>
+
+        <!-- Soal 6 -->
+        <div>
+          <p class="font-semibold">6. Mediannya dari data: 4, 6, 6, 7, 8 adalah?</p>
+          <label class="block mt-2"><input type="radio" name="q6" value="a"> 6</label>
+          <label class="block"><input type="radio" name="q6" value="b"> 7</label>
+          <label class="block"><input type="radio" name="q6" value="c"> 8</label>
+        </div>
+
+        <button type="submit" class="mt-6 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+          Selesai & Lihat Skor
+        </button>
+      </form>
+
+      <div id="result" class="mt-6 text-center text-xl font-semibold text-blue-600 hidden"></div>
+    </div>
+  </section>
+
+  <!-- SCRIPT KUIS -->
+  <script>
+    document.querySelector('a[href="#kuis"]').addEventListener('click', function (e) {
+      e.preventDefault();
+      document.getElementById('kuis').classList.remove('hidden');
+      document.getElementById('kuis').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById('quizForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      let score = 0;
+      const answers = {
+        q1: 'b',
+        q2: 'b',
+        q3: 'a',
+        q4: 'b',
+        q5: 'a',
+        q6: 'a'
+      };
+      for (let key in answers) {
+        const selected = document.querySelector(`input[name="${key}"]:checked`);
+        if (selected && selected.value === answers[key]) {
+          score++;
+        }
+      }
+      const result = document.getElementById('result');
+      result.textContent = `Skormu: ${score} dari 6 soal`;
+      result.classList.remove('hidden');
+    });
+  </script>
+
+<!-- SCRIPT CHATBASE -->
+<script>
+(function(){
+  if(!window.chatbase || window.chatbase("getState") !== "initialized"){
+    window.chatbase = (...args) => {
+      if(!window.chatbase.q){ window.chatbase.q = [] }
+      window.chatbase.q.push(args)
+    };
+    window.chatbase = new Proxy(window.chatbase, {
+      get(target, prop){
+        if(prop === "q"){ return target.q }
+        return (...args) => target(prop, ...args)
+      }
+    });
+  }
+  const onLoad = function(){
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.id = "_llt001cYYk6xN5hr6xKb";
+    script.domain = "www.chatbase.co";
+    document.body.appendChild(script);
+  };
+  if(document.readyState === "complete"){
+    onLoad();
+  } else {
+    window.addEventListener("load", onLoad);
+  }
+})();
+</script>
+
+</body>
+</html>
+
